@@ -23,7 +23,7 @@ Para la validación del modelo, se utiliza la notación de **Álgebra Relacional
 ### Consultas de Negocio
 
 **A. Obtener el nombre de la cuenta y su saldo actual para un usuario específico:**
-$$\pi_{nombre\_cuenta, saldo\_actual}(\sigma_{id\_usuario=\#}(CUENTA))$$
+$$\pi_{nombre\_cuenta, saldo\_actual}(\sigma_{id\_usuario=1}(CUENTA))$$
 
 **B. Listar todas las transacciones que sean de una categoría particular:**
 $$\pi_{monto, fecha, descripcion}(TRANSACCIÓN \bowtie_{id\_categoria} (\sigma_{nombre\_categoria='nombre'}(CATEGORÍA)))$$
@@ -36,11 +36,13 @@ $$\pi_{nombre\_cate, monto}(CATEGORÍA \bowtie_{id\_categoria} TRANSACCION)$$
 
 ---
 
-## 3. MODELOS GRÁFICOS
-*(Asegúrate de subir tus imágenes a una carpeta llamada 'diagramas' en este repositorio)*
+## 3. MODELOS 
+* https://drive.google.com/file/d/1HC4ELsFqRxsqBxrwxnM5JY9yUi6MnZb2/view?usp=sharing  *
 
 ### Modelo Lógico
-![Modelo Lógico](./diagramas/logico.png)
+![Modelo Logico](https://github.com/user-attachments/assets/f69ffe2c-82c7-41ba-aa35-9c805584c355)
+
 
 ### Modelo Físico
-![Modelo Físico](./diagramas/fisico.png)
+![Modelo Fisico](https://github.com/user-attachments/assets/108fab35-2220-481d-a7de-55fc8f24dd56)
+
