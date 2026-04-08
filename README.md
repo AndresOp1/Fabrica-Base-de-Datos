@@ -1,5 +1,5 @@
-# Fabrica-Base-de-Datos
-# Diseño de Base de Datos - Sistema de Gestión Financiera
+# Fabrica Escuela: Base de Datos
+# Sistema de Gestión Financiera
 
 Este repositorio contiene la documentación técnica, los modelos de datos y las reglas de negocio para el módulo de gestión financiera personal.
 
@@ -22,7 +22,7 @@ Para la validación del modelo, se utiliza la notación de **Álgebra Relacional
 
 ### Consultas de Negocio
 
-**A. Obtener el nombre de la cuenta y su saldo actual para un usuario específico:**
+**A. Obtener el nombre de la cuenta y su saldo actual para un usuario específico:** 
 $$\pi_{nombre\_cuenta, saldo\_actual}(\sigma_{id\_usuario=1}(CUENTA))$$
 
 **B. Listar todas las transacciones que sean de una categoría particular:**
