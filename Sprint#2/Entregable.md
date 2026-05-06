@@ -124,7 +124,7 @@ AND T.fecha >= DATE_TRUNC('month', CURRENT_DATE);
 
 Para los siguientes cálculos usamos:
 
-### $L = 4 \times (\text{número de campos variables}) + \sum \text{size(fijos)} + \text{size(mapa\_bits)} + \sum \text{tamaño variables}$ 
+### $L = 4 \times (\text{número de campos variables}) + \sum \text{size(fijos)} + \text{size(mapa bits)} + \sum \text{tamaño variables}$ 
 
 $P = 1 \text{ byte} + 1 \text{ byte} + 4F_R + F_R \times L$
 
