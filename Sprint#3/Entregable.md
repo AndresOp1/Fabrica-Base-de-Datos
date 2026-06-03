@@ -13,6 +13,9 @@
 | Agregar `fecha_inicio` y `fecha_fin` en PRESUPUESTO (reemplaza `fecha`) | Un presupuesto necesita un rango de periodo para comparar gastos ejecutados |
 | Agregar campo `saldo_actual` en CUENTA | Para mantener el saldo actualizado automáticamente con triggers |
 
+### Diagrama actualizado:
+* https://drive.google.com/file/d/1HC4ELsFqRxsqBxrwxnM5JY9yUi6MnZb2/view
+
 ### Cardinalidades refinadas:
 
 - USUARIO (1) → (N) CUENTA
